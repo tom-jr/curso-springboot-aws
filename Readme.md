@@ -14,3 +14,9 @@
 - [**Por que Cloud**](/docs/contents/mod001-intro/content004.md)
     - Por que Cloud
     - O que podemos fazer na **AWS**
+
+
+## Modulo 002 - API REST com SpringBoot
+
+- [**Gerando Projeto com SpringInitialize**](/docs/contents/mod001-api-rest-com-spring-boot/content001.md)
+
