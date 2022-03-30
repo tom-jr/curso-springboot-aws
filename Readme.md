@@ -20,3 +20,6 @@
 
 - [**Gerando Projeto com SpringInitialize**](/docs/contents/mod001-api-rest-com-spring-boot/content001.md)
 
+- [**Implementando primeiro endpoint **](/docs/contents/mod001-api-rest-com-spring-boot/content002.md)
+
+
