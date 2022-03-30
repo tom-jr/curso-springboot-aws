@@ -18,8 +18,12 @@
 
 ## Modulo 002 - API REST com SpringBoot
 
-- [**Gerando Projeto com SpringInitialize**](/docs/contents/mod001-api-rest-com-spring-boot/content001.md)
+- [**Gerando Projeto com SpringInitialize**](/docs/contents/mod002-api-rest-com-spring-boot/content001.md)
 
-- [**Implementando primeiro endpoint **](/docs/contents/mod001-api-rest-com-spring-boot/content002.md)
+- [**Implementando primeiro endpoint **](/docs/contents/mod002-api-rest-com-spring-boot/content002.md)
 
 
+## Modulo 003 - Tratamento de erros e teste Automatizados
+
+- [**Rodando Postgres no Docker**](/docs/contents/mod003-erros-teste-automatizados/content001.md)
+    
