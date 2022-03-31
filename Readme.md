@@ -38,6 +38,8 @@
 
 - [**Código e mensagem de erro**](/docs/contents/mod003-erros-teste-automatizados/content005.md)
 
+- [**Usando Controller Advice**](/docs/contents/mod003-erros-teste-automatizados/content006.md)
+
 
 
     
