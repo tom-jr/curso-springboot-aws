@@ -16,9 +16,11 @@ $ docker run -p 5432:5432 --name beerdb -e POSTGRES_USER=admin -e POSTGRES_PASSW
 
 ~~~ bash
 $ docker ps # listar as imagens status
+$ docker exec -it image_name psql -U user_name -d dabase_name # entrar no banco
 ~~~
 Para realizar teste da porta, caso fechar normalmente, a conexão esta funcionando
 ~~~ bash
 $ telnet localhost 5432
 ~~~
+
 

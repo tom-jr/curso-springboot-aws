@@ -30,4 +30,9 @@
 
 - [**Configurando Spring Data JPA**](/docs/contents/mod003-erros-teste-automatizados/content002.md)
 
+- [**Implementando Cadastro**](/docs/contents/mod003-erros-teste-automatizados/content003.md)
+    - Criando Entidade Beer
+    - Cirando BeerRepository
+
+
     
