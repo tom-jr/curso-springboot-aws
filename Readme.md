@@ -36,5 +36,8 @@
 
 - [**Validação com BeanValidation**](/docs/contents/mod003-erros-teste-automatizados/content004.md)
 
+- [**Código e mensagem de erro**](/docs/contents/mod003-erros-teste-automatizados/content005.md)
+
+
 
     

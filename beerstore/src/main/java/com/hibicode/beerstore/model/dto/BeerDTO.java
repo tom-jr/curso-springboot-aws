@@ -15,13 +15,13 @@ public class BeerDTO {
 
     private Long id;
     
-    @NotBlank
+    @NotBlank(message = "beer-1")
     private String name;
 
-    @NotNull
+    @NotNull(message = "beer-2")
     private BeerType type;
 
-    @NotNull
-    @DecimalMin("0")
+    @NotNull(message = "beer-3")
+    @DecimalMin(value = "0",message = "beer-3")
     private BigDecimal volume;
 }
