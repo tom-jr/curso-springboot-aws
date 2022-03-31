@@ -34,5 +34,7 @@
     - Criando Entidade Beer
     - Cirando BeerRepository
 
+- [**Validação com BeanValidation**](/docs/contents/mod003-erros-teste-automatizados/content004.md)
+
 
     

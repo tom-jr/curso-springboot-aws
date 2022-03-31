@@ -3,6 +3,8 @@ package com.hibicode.beerstore.resources;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.validation.Valid;
+
 import com.hibicode.beerstore.model.Beer;
 import com.hibicode.beerstore.model.dto.BeerDTO;
 import com.hibicode.beerstore.service.BeerService;
@@ -28,7 +30,7 @@ public class BeerResouce {
     }
 
     @PostMapping
-    public Beer add(@RequestBody BeerDTO dto) {
+    public Beer add(@RequestBody @Valid BeerDTO dto) {
         Beer beer = this.beerService.add(dto);
         return this.beerService.getRepository().save(beer);
 
