@@ -26,4 +26,8 @@
 ## Modulo 003 - Tratamento de erros e teste Automatizados
 
 - [**Rodando Postgres no Docker**](/docs/contents/mod003-erros-teste-automatizados/content001.md)
+    - Configurando Postgres de forma rápida
+
+- [**Configurando Spring Data JPA**](/docs/contents/mod003-erros-teste-automatizados/content002.md)
+
     
