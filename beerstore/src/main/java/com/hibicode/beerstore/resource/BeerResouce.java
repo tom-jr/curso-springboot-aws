@@ -31,7 +31,7 @@ public class BeerResouce {
     @PostMapping
     public Beer add(@RequestBody @Valid BeerDTO dto) {
         Beer beer = this.beerService.add(dto);
-        return this.beerService.getRepository().save(beer);
+        return this.beerService.save(beer);
 
     }
 }

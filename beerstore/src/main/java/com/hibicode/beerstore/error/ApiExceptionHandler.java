@@ -64,6 +64,15 @@ public class ApiExceptionHandler {
         return ResponseEntity.status(status).body(errorResponse);
     }
 
+    @ExceptionHandler(BeerAlreadyExistsException.class)
+    ResponseEntity<?> handlerBeerAlreadyExistsException(Exception exception, Locale locale) {
+
+        final String errorCode = "beers-5";
+        final ErrorResponse errorResponse = ErrorResponse.of(HttpStatus.CONFLICT, toApiError(errorCode, locale));
+
+        return ResponseEntity.status(HttpStatus.CONFLICT).body(errorResponse);
+    }
+
     private ApiError toApiError(String code, Locale locale, Object... args) {
         String message;
         try {
