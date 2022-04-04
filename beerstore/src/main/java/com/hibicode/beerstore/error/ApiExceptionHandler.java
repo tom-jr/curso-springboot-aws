@@ -73,6 +73,15 @@ public class ApiExceptionHandler {
         return ResponseEntity.status(HttpStatus.CONFLICT).body(errorResponse);
     }
 
+
+    @ExceptionHandler(EntityNotFoundException.class)
+    public ResponseEntity<?> handlerEntityNotFoundException(EntityNotFoundException ex,Locale locale){
+        final ErrorResponse errorResponse = ErrorResponse.of(HttpStatus.CONFLICT, toApiError(ex.getMessage(),locale));
+
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorResponse);
+
+    }
+
     private ApiError toApiError(String code, Locale locale, Object... args) {
         String message;
         try {
