@@ -1,0 +1,14 @@
+# seleção da imagem docker, caso não estiver em meu host o  docker vai baixar
+FROM ubuntu:18.04
+# RUN ira rodar comandos dentro do container apos inciar 
+RUN apt-get update 
+# instalando nginx, um servidor web, o -y é para dizer yes durante instalação
+RUN apt-get install -y nginx
+# adiconando nome arquivo para a criação de imagem
+ADD index.html /var/www/html/index.html
+
+ADD style.css /var/www/html/style.css
+
+RUN echo "daemon off;" >> /etc/nginx/nginx.conf
+
+CMD service nginx start

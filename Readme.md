@@ -48,9 +48,11 @@
 
 
 
-## Modulo 004 - AWS
+## Modulo 004 - Docker
 
-- [**Calculo de IPs**](/docs/contents/mod004-AWS/content001.md)
+- [**Criando primeira Imagem**](/docs/contents/mod004-docker/content001.md)
+
+
 
 
 
